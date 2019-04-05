@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
   data.each_pair do |key, value|
       value.each do |attribute, names|
-        name.each do |name|
+        names.each do |name|
           binding.pry
         end
       end
