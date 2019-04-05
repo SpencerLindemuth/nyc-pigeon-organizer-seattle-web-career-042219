@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
           binding.pry
           if new_hash[name].nil?
             new_hash[name] = {}
+          end
         end
       end
   end
